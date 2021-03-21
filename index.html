@@ -24,39 +24,86 @@
           <a href="./index.html" class="logo"
             ><span class="logo__text">Web</span>Studio</a
           >
+          <button
+            type="button"
+            class="nav__close is__open"
+            aria-expanded="false"
+            aria-controls="menu__container"
+            data-menu-button
+          >
+            <svg
+              width="24"
+              height="16"
+              aria-level="переключатель мобильного меню"
+            >
+              <use
+                class="icon__menu"
+                href="./images/icons.svg#mobile_menu"
+              ></use>
+              <use
+                class="icon__cross"
+                href="./images/icons.svg#close_mobile"
+              ></use>
+            </svg>
+          </button>
+          <div class="menu__container" id="menu__container" data-menu>
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="./index.html" class="nav__link nav__link--current"
+                  >Студия</a
+                >
+              </li>
+              <li class="nav__item">
+                <a href="./portfolio.html" class="nav__link">Портфолио</a>
+              </li>
+              <li class="nav__item">
+                <a href=" " class="nav__link">Контакты</a>
+              </li>
+            </ul>
 
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a href="./index.html" class="nav__link nav__link--current"
-                >Студия</a
-              >
-            </li>
-            <li class="nav__item">
-              <a href="./portfolio.html" class="nav__link">Портфолио</a>
-            </li>
-            <li class="nav__item">
-              <a href=" " class="nav__link">Контакты</a>
-            </li>
-          </ul>
-
-          <ul class="contacts">
-            <li class="contacts__item">
-              <a href="mailto:info@devstudio.com" class="contacts__link">
-                <svg class="contacts__icon" width="16" height="12">
-                  <use href="./images/icons.svg#envelope"></use>
-                </svg>
-                <span>info@devstudio.com</span>
-              </a>
-            </li>
-            <li class="contacts__item">
-              <a href="tel:+380961111111" class="contacts__link">
-                <svg class="contacts__icon" width="10" height="16">
-                  <use href="./images/icons.svg#smartphone"></use>
-                </svg>
-                <span>+38 096 111 11 11</span>
-              </a>
-            </li>
-          </ul>
+            <ul class="contacts">
+              <li class="contacts__item--phone">
+                <a href="tel:+380961111111" class="contacts__link">
+                  <svg class="contacts__icon" width="10" height="16">
+                    <use href="./images/icons.svg#smartphone"></use>
+                  </svg>
+                  <span>+38 096 111 11 11</span>
+                </a>
+              </li>
+              <li class="contacts__item">
+                <a href="mailto:info@devstudio.com" class="contacts__link">
+                  <svg class="contacts__icon" width="16" height="12">
+                    <use href="./images/icons.svg#envelope"></use>
+                  </svg>
+                  <span>info@devstudio.com</span>
+                </a>
+              </li>
+            </ul>
+            <div class="contacts__social">
+              <ul class="social__list">
+                <li class="social__item">
+                  <a href="instagram" class="social__links">
+                    <span>instagram</span>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a href="Twitter" class="social__links">
+                    <span>Twitter</span>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a href="Facebook" class="social__links">
+                    <span>Facebookr</span>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a href="LinkedIn" class="social__links">
+                    <span>LinkedIn</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </nav>
       </div>
     </header>
