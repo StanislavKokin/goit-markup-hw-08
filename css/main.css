@@ -425,6 +425,9 @@ section {
     margin-left: 40px;
     margin-right: 40px;
   }
+  .page__advant {
+    padding-bottom: 0px;
+  }
   .visually-hidden {
     position: absolute;
     width: 1px;
