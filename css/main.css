@@ -466,8 +466,6 @@ section {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-  }
-  .advant__item + .advant__item {
     margin-bottom: 30px;
   }
   .work {
