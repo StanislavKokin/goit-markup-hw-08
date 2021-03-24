@@ -1,9 +1,14 @@
 @media screen and (max-width: 480px) {
+  .portfolio {
+    padding-top: 0px;
+  }
+
   .filters {
-    display: flex;
-    text-align: center;
-    justify-content: center;
+    // display: flex;
+    // text-align: center;
+    // justify-content: center;
     margin-bottom: 50px;
+    padding-top: 60px;
   }
 
   .filters__item + .filters__item {

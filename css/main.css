@@ -807,15 +807,12 @@ section {
 }
 
 @media screen and (max-width: 480px) {
+  .portfolio {
+    padding-top: 0px;
+  }
   .filters {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    text-align: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
     margin-bottom: 50px;
+    padding-top: 60px;
   }
   .filters__item + .filters__item {
     margin-left: 8px;
