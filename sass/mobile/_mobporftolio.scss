@@ -11,13 +11,18 @@
     padding-top: 60px;
   }
 
-  .filters__item + .filters__item {
-    margin-left: 8px;
+  .filters__item {
+    display: inline-flex;
   }
+
+  // .filters__item + .filters__item {
+  //   margin-left: 8px;
+  // }
 
   .filters__button {
     display: inline-block;
-    padding: 6px 22px;
+    padding: 6px 15px;
+    margin-bottom: 15px;
 
     font-family: inherit;
     font-style: inherit;
@@ -122,5 +127,13 @@
     font-size: 16px;
     line-height: 1.875;
     color: getColor(grey-text);
+  }
+
+  .menu__container {
+    z-index: 1;
+  }
+
+  .nav__close {
+    z-index: 2;
   }
 }
