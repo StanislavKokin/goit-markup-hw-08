@@ -1,0 +1,149 @@
+@media screen and (min-width: 1200px) {
+  .advant {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .advant__thumb {
+    padding: 25px 100px;
+    margin-bottom: 30px;
+    background-color: $secondary-back;
+  }
+
+  .advant__item + .advant__item {
+    margin-left: 30px;
+  }
+
+  .advant__title {
+    margin-bottom: 10px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    text-transform: uppercase;
+  }
+
+  .advant__text {
+    font-size: 14px;
+    line-height: 1.714;
+    color: $grey-text;
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    -webkit-clip-path: inset(100%);
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 1200px) {
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    -webkit-clip-path: inset(100%);
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  .advant {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: -30px;
+    margin-left: -30px;
+  }
+
+  .advant__thumb {
+    padding: 25px 100px;
+    margin-bottom: 30px;
+    background-color: $secondary-back;
+  }
+
+  .advant__item {
+    flex-basis: calc(100% / 2 - 60px);
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+
+  .advant__title {
+    margin-bottom: 10px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    text-transform: uppercase;
+  }
+
+  .advant__text {
+    font-size: 14px;
+    line-height: 1.714;
+    color: $grey-text;
+  }
+}
+@media screen and (max-width: 479px) {
+  .page__advant {
+    padding-bottom: 0px;
+  }
+
+  .advant__thumb {
+    padding: 25px 100px;
+    margin-bottom: 30px;
+    background-color: #f5f4fa;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .advant__title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .advant__text {
+    font-size: 14px;
+    line-height: 1.2;
+    color: #757575;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    -webkit-clip-path: inset(100%);
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  // .advant__item + .advant__item {
+  //   margin-bottom: 30px;
+  // }
+}

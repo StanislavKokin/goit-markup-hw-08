@@ -1,8 +1,11 @@
 @import './utils/variables';
 @import './utils/common';
-@import './mobile/_mobile';
-@import './mobile/mobporftolio';
-@import './tablet/tablet';
-@import './tablet/tabletportfolio';
-@import './desctop/desctop';
-@import './desctop/desctopportfolio';
+@import './common/header';
+@import './common/footer';
+@import './sections/hero';
+@import './sections/advatages';
+@import './sections/work';
+@import './sections/team';
+@import './sections/clients';
+@import './sections/modal';
+@import './sections/portfolio/projects';
