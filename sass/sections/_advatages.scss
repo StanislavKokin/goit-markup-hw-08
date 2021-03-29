@@ -45,7 +45,7 @@
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .visually-hidden {
     position: absolute;
     width: 1px;
@@ -97,7 +97,7 @@
     color: $grey-text;
   }
 }
-@media screen and (max-width: 479px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .page__advant {
     padding-bottom: 0px;
   }

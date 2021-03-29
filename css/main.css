@@ -199,7 +199,7 @@ section {
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .nav__close {
     display: none;
   }
@@ -318,7 +318,7 @@ section {
   }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .page__header {
     position: relative;
     display: -webkit-box;
@@ -692,7 +692,7 @@ section {
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer__container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -916,7 +916,7 @@ section {
   }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .page__footer {
     background-color: #2f303a;
     padding-top: 60px;
@@ -1119,14 +1119,14 @@ section {
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .hero {
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/Hero@2x-min.jpg);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Hero@2x-min.jpg);
   }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .hero {
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/Hero-min.jpg);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Hero-min.jpg);
@@ -1214,7 +1214,7 @@ section {
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .visually-hidden {
     position: absolute;
     width: 1px;
@@ -1268,7 +1268,7 @@ section {
   }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .page__advant {
     padding-bottom: 0px;
   }
@@ -1734,7 +1734,7 @@ section {
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .clients {
     text-align: center;
   }
@@ -1796,7 +1796,7 @@ section {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .clients {
     text-align: center;
   }
@@ -2108,7 +2108,7 @@ section {
   color: white;
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .modal {
     width: calc(100% - 20px);
   }
@@ -2231,7 +2231,7 @@ section {
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .portfolio {
     padding-top: 0px;
   }
@@ -2348,7 +2348,7 @@ section {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .portfolio {
     padding-top: 0px;
   }

@@ -1,7 +1,6 @@
 //desctop
 
 @media screen and (min-width: 1200px) {
-
   // footer
 
   .footer__container {
@@ -207,13 +206,11 @@
     fill: currentColor;
     margin-left: 10px;
   }
-
 }
 
 //tablet
 
-@media screen and (min-width: 480px) and (max-width: 1200px) {
-
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   // footer
 
   .footer__container {
@@ -420,13 +417,11 @@
     fill: currentColor;
     margin-left: 10px;
   }
-
 }
 
 // mobile
 
-@media screen and (max-width: 479px) {
-
+@media screen and (min-width: 480px) and (max-width: 767px) {
   // footer
 
   .page__footer {
@@ -611,5 +606,4 @@
   .sub__group {
     margin-top: 20px;
   }
-
 }
