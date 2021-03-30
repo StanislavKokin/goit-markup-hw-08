@@ -228,10 +228,9 @@
 
   color: $white-text;
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .modal {
     width: calc(100% - 20px);
   }
-
 }
