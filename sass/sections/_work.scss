@@ -19,7 +19,7 @@
   align-items: center;
 }
 
-.work__item+.work__item {
+.work__item + .work__item {
   margin-left: 30px;
 }
 
@@ -29,7 +29,7 @@
   height: 294px;
 }
 
-.work__text{
+.work__text {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -48,9 +48,7 @@
 }
 
 @media screen and (max-width: 1200px) {
-
   .work {
     display: none;
   }
-
 }
