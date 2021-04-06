@@ -488,10 +488,6 @@ section {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  .footer-container__item:last-child {
-    margin-left: auto;
-    margin-right: auto;
-  }
   .nav__web {
     color: #2196f3;
   }
@@ -535,9 +531,6 @@ section {
     line-height: 1.714;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-  }
-  .footer-container__item {
-    margin-left: 70px;
   }
   .join__title {
     margin-bottom: 20px;
