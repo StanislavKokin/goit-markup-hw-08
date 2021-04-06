@@ -105,8 +105,15 @@
     padding-bottom: 0px;
   }
 
+  .advant {
+    margin-bottom: 60px;
+  }
+
   .advant__item {
     margin-bottom: 30px;
+  }
+  .advant__item:last-child {
+    margin-bottom: 0px;
   }
 
   .advant__thumb {

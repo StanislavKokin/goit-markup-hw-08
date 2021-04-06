@@ -249,6 +249,10 @@
     margin-bottom: 30px;
   }
 
+  .cards__item:last-child {
+    margin-bottom: 0px;
+  }
+
   .team__thumb {
     width: 270px;
     height: 260px;

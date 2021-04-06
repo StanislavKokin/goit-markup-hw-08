@@ -12,7 +12,7 @@ a {
 
 img {
   display: block;
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -37,7 +37,6 @@ body {
   font-weight: 400;
   font-style: normal;
   letter-spacing: 0.03em;
-  max-width: 1600px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -537,7 +536,7 @@ section {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
   }
-  .join {
+  .footer-container__item {
     margin-left: 70px;
   }
   .join__title {
@@ -1354,8 +1353,14 @@ section {
   .page__advant {
     padding-bottom: 0px;
   }
+  .advant {
+    margin-bottom: 60px;
+  }
   .advant__item {
     margin-bottom: 30px;
+  }
+  .advant__item:last-child {
+    margin-bottom: 0px;
   }
   .advant__thumb {
     padding: 25px 100px;
@@ -1702,6 +1707,9 @@ section {
     border-radius: 0px 0px 4px 4px;
     margin-bottom: 30px;
   }
+  .cards__item:last-child {
+    margin-bottom: 0px;
+  }
   .team__thumb {
     width: 270px;
     height: 260px;
@@ -1836,16 +1844,13 @@ section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    margin-left: -30px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-top: -30px;
+    margin-left: -30px;
   }
   .clients__link {
     display: -webkit-inline-box;
@@ -1870,10 +1875,10 @@ section {
     color: #2196f3;
   }
   .clients__item {
-    -ms-flex-preferred-size: calc(100% / 3 - 30px);
-        flex-basis: calc(100% / 3 - 30px);
-    margin-left: 30px;
+    -ms-flex-preferred-size: calc(100% / 3 - 90px);
+        flex-basis: calc(100% / 3 - 90px);
     margin-top: 30px;
+    margin-left: 30px;
   }
   .clients__item + .clients__item {
     margin-left: 30px;
@@ -2445,12 +2450,13 @@ section {
     -ms-flex-line-pack: start;
     align-content: flex-start;
     max-width: 480px;
+    margin-bottom: 40px;
   }
   .filters__item {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    margin-bottom: 15px;
+    margin-top: 15px;
     margin-left: 8px;
   }
   .filters__button {
